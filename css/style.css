@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC:700');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+
+
+body{
+	font: 400 14px/1 'Open Sans', sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 18px;
+	padding-right: 20px;
+	max-width: 1207px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+
+.ba-menu{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 42px;
+	align-items: center;
+	padding-bottom: 27px;
+}
+
+.ba-menu ul{
+	padding-bottom: 6px;
+	margin: 0;
+}
+
+.ba-menu li{
+	display: inline-block;
+	position: relative;
+	left: 18px;
+	padding-left: 1px;
+}
+
+.ba-menu li a:hover{
+	padding: 15px 18px;
+	border: 1px solid #9E0045;
+	border-radius: 5px;
+}
+
+.ba-menu li span{
+	position: relative;
+	top: 4px;
+	right: 11px;
+}
+
+.ba-menu li>a{
+	border: 1px solid #fff;
+	padding: 15px 18px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	letter-spacing: -0.01em;
+
+}
+/*Header*/
+
+.ba-artmaster{
+	background: #D9D4CD url("../img/fon.jpg");
+	background-size: cover;
+	padding-top: 66px;
+	padding-bottom: 137px;
+}
+
+.ba-artmaster__name{
+	font: 400 96px/1 Prata, serif;
+	margin: 22px 0;
+}
+.ba-artmaster__text{
+	padding-top: 6px;
+	font-size: 24px;
+	width: 468px;
+	line-height: 32px;
+	margin-bottom: 0;
+}
+
+.ba-button{
+	color: #8F003E;
+	font-size: 24px;
+	text-decoration: none;
+	float: right;
+	border: 3px solid #9E0045;
+	border-radius: 5px;
+	padding: 22px 85px;
+	margin-top: -9px;
+}
+
+.ba-button:hover{
+	background-color: #9E0045;
+	color: #fff;
+}
+
+.ba-artpicture{
+	padding-top: 72px;
+	margin-left: -4px;
+	padding-bottom: 110px;
+}
+
+.ba-description{
+	font: 900 48px/1 'Cormorant SC', serif;
+	color: #8F003E;
+	padding-bottom: 71px;
+}
+
+.ba-artpicture__gallery{
+	margin-left: -23px;
+}
+
+.ba-artpicture__gallery img{
+	padding-left: 24px;
+
+}
+
+.ba-artpicture__first-line{
+	padding-bottom: 64px;
+}
+
+.picture-12{
+	vertical-align:top;
+}
+
+.picture-9:hover {
+	 transform:scale(1.2);
+	 transform-origin: left;
+ }
+
+.picture-2:hover {
+	transform:scale(1.2);
+	transform-origin: right;
+}
+
+.picture-11:hover {
+	transform:scale(1.2);
+	transform-origin: left;
+	transform-origin: bottom;
+}
+
+.picture-12:hover{
+	overflow: hidden;
+	width: 55%;
+	margin-left: -162px;
+	margin-top: -50px;
+}
+
+.ba-artpicture__button{
+	position: relative;
+	bottom: 67px;
+	left: 2px;
+	padding-right: 61px;
+}
+
+.ba-artpicture__button span{
+	position: relative;
+	right: -17px;
+	bottom: 2px;
+}
+
+.ba-artvideo{
+	background: #BAA1A1;
+	padding-top: 63px;
+	margin-left: -3px;
+	color: #fff;
+	padding-bottom: 112px;
+}
+
+.ba-video{
+	display: flex;
+	margin-top: -8px;
+}
+
+.opisanie{
+	font-size: 29px;
+	padding-left: 30px;
+	padding-top: 1px;
+}
+
+.opisanie p{
+	font-size: 18px;
+	padding-top: 8px;
+	line-height: 1.4;
+}
+
+.ba-artvideo__button{
+	font-size: 16px;
+	position: relative;
+	bottom: 69px;
+	padding: 21px 69px 27px 94px;
+}
+
+.ba-artvideo__button span{
+	position: relative;
+	font-size: 24px;
+	right: -27px;
+}
