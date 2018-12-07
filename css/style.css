@@ -133,6 +133,7 @@ select:focus {
 	background-color: #9E0045;
 	color: #fff;
 }
+/*.ba-artmaster*/
 
 .ba-artpicture{
 	padding-top: 72px;
@@ -198,6 +199,7 @@ select:focus {
 	right: -17px;
 	bottom: 2px;
 }
+/*.ba-artpicture*/
 
 .ba-artvideo{
 	background: #BAA1A1;
@@ -213,10 +215,14 @@ select:focus {
 }
 
 .opisanie{
-	font-size: 29px;
 	padding-left: 30px;
 	padding-top: 1px;
 }
+.opisanie h4{
+	font-weight: normal;
+	font-size: 29px;
+}
+
 
 .opisanie p{
 	font-size: 18px;
@@ -235,4 +241,94 @@ select:focus {
 	position: relative;
 	font-size: 24px;
 	right: -27px;
+}
+/*.ba-artvideo*/
+
+.ba-contacts{
+	padding-top: 64px;
+	margin-left: -3px;
+	padding-bottom: 50px;
+	font: 400 16px/1 'Open Sans', sans-serif;
+}
+
+.ba-contacts h2{
+	margin-bottom: 21px;
+}
+
+.ba-contacts__style{
+	background-color: #E9D2DE;
+	border: none;
+	resize: none;
+	border-radius: 5px;
+	width: 270px;
+	height: 53px;
+}
+
+.ba-contacts form{
+	display: flex;
+}
+
+.ba-contacts div + div{
+	padding-left: 30px;
+	overflow: hidden;
+}
+
+.ba-contacts button{
+	margin-left: 70px;
+}
+
+
+.ba-contacts__button{
+	width: 199px;
+	height: 57px;
+	margin-top: 45px;
+	border: none;
+	border-radius: 5px;
+	background-color: #9E0045;
+	color: #fff;
+}
+
+.ba-contacts__button:hover{
+	color: transparent;
+	background: #9E0045 url(../img/Vector.svg) no-repeat center;
+}
+
+.ba-phone{
+	font-size: 17px;
+	padding-left: 6px;
+	margin-top: 15px;
+	letter-spacing: 0.01em;
+}
+
+.soc-media{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.soc-media a{
+	margin-right: -21px;
+	margin-left: 20px;
+	padding: 14px 18px;
+	border: 3px solid #fff;
+		border-radius: 5px;
+}
+
+.soc-media a:hover{
+		padding: 14px 18px;
+		border: 3px solid #9E0045;
+		border-radius: 5px;
+}
+
+.ba-footer{
+	background-color: #9E0045;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	padding-top: 44px;
+	margin-left: -18px;
+	padding-bottom: 9px;
+}
+
+.ba-footer p{
+	padding-top: 22px;
 }
