@@ -317,7 +317,7 @@ select:focus {
 	margin-right: -21px;
 	margin-left: 20px;
 	padding: 14px 18px;
-	border: 3px solid #fff;
+	border: 3px solid transparent;
 		border-radius: 5px;
 }
 
@@ -364,12 +364,15 @@ select:focus {
 	margin-top: 6px;
 	padding-top: 24px;
 	padding-bottom: 24px;
-
 }
 
 .ba-gallery h2{
 	font: 400 40px/1 Prata, serif;
 	margin-left: -2px;
+}
+
+.ba-picture{
+	padding-bottom: 113px;
 }
 
 .ba-location{
@@ -384,4 +387,52 @@ select:focus {
 	height: 100%;
 	padding-left: 30px;
 }
+
+.ba-location__more{
+	margin-left: 30px;
+	padding-top: 139px;
+	border-radius: 5px;
+	display: flex;
+	width: 31.7%;
+	height: 545px;
+	background: #E9D2DE;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+}
+
+.ba-location__more p{
+	padding-bottom: 21px;
+}
+
+.ba-footer__soc-media a{
+	margin-right: -28px;
+	margin-left: 26px;
+}
+
+.ba-footer__soc-media a:hover{
+	border-color: #FFAAE9;
+	margin-right: -28px;
+	margin-left: 26px;
+}
+
+.ba-footer-gallery{
+	padding-top: 15px;
+	margin-left: -15px;
+	padding-bottom: 9px;
+}
+
+.ba-logo-footer-gallery{
+	margin-top: -43px;
+	margin-left: 18px;
+}
+
+.ba-footer-gallery p{
+	padding-top: 11px;
+	padding-left: 5px;
+}
+
+
 
