@@ -58,9 +58,21 @@ select:focus {
 .ba-menu{
 	display: flex;
 	justify-content: space-between;
-	padding-top: 42px;
+	padding-top: 35px;
 	align-items: center;
-	padding-bottom: 27px;
+	padding-bottom: 21px;
+}
+
+.ba-logo-header{
+	border: 3px solid transparent;
+	padding: 3px;
+	border-radius: 7px;
+}
+
+.ba-logo-header:hover{
+	border: 3px solid #A83F57;
+	border-radius: 7px;
+	padding: 3px;
 }
 
 .ba-menu ul{
@@ -153,7 +165,6 @@ select:focus {
 
 .ba-artpicture__gallery img{
 	padding-left: 24px;
-
 }
 
 .ba-artpicture__first-line{
@@ -164,27 +175,24 @@ select:focus {
 	vertical-align:top;
 }
 
+.ba-artpicture__gallery img:hover{
+	transform:scale(1.07);
+}
+
 .picture-9:hover {
-	 transform:scale(1.2);
 	 transform-origin: left;
  }
 
 .picture-2:hover {
-	transform:scale(1.2);
 	transform-origin: right;
 }
 
 .picture-11:hover {
-	transform:scale(1.2);
-	transform-origin: left;
 	transform-origin: bottom;
 }
 
 .picture-12:hover{
-	overflow: hidden;
-	width: 55%;
-	margin-left: -162px;
-	margin-top: -50px;
+	transform-origin: right;
 }
 
 .ba-artpicture__button{
@@ -264,6 +272,10 @@ select:focus {
 	height: 53px;
 }
 
+.ba-contacts__textarea{
+	padding-top: 20px;
+}
+
 .ba-contacts form{
 	display: flex;
 }
@@ -273,11 +285,6 @@ select:focus {
 	overflow: hidden;
 }
 
-.ba-contacts button{
-	margin-left: 70px;
-}
-
-
 .ba-contacts__button{
 	width: 199px;
 	height: 57px;
@@ -286,9 +293,10 @@ select:focus {
 	border-radius: 5px;
 	background-color: #9E0045;
 	color: #fff;
+	margin-left: 70px;
 }
 
-.ba-contacts__button:hover{
+.ba-contacts__button:active{
 	color: transparent;
 	background: #9E0045 url(../img/Vector.svg) no-repeat center;
 }
@@ -318,17 +326,62 @@ select:focus {
 		border: 3px solid #9E0045;
 		border-radius: 5px;
 }
+/*.ba-contacts*/
 
 .ba-footer{
 	background-color: #9E0045;
 	font-size: 14px;
-	color: #fff;
+	color: #FFAAE9;
 	text-align: center;
-	padding-top: 44px;
-	margin-left: -18px;
+	padding-top: 38px;
+	margin-left: -15px;
 	padding-bottom: 9px;
 }
 
-.ba-footer p{
-	padding-top: 22px;
+.ba-logo-footer{
+	border: 3px solid transparent;
+	padding: 3px;
+	border-radius: 7px;
+	display: inline-block;
 }
+
+.ba-logo-footer:hover{
+	border: 3px solid #FFAAE9;
+	border-radius: 7px;
+	padding: 3px;
+}
+
+.ba-footer p{
+	padding-top: 16px;
+}
+/*.ba-footer*/
+
+/*-------------------------------------------------------*/
+/*Галерея*/
+
+.ba-gallery{
+	background-image: url(../img/fon.jpg);
+	margin-top: 6px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
+}
+
+.ba-gallery h2{
+	font: 400 40px/1 Prata, serif;
+	margin-left: -2px;
+}
+
+.ba-location{
+	display: flex;
+	margin-left: -32px;
+	padding-top: 114px;
+	width: 100%;
+}
+
+.ba-location img{
+	width: 35.1%;
+	height: 100%;
+	padding-left: 30px;
+}
+
