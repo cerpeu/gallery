@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Prata');
+﻿@import url('https://fonts.googleapis.com/css?family=Prata');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+SC:700');
 @import url('https://fonts.googleapis.com/css?family=Forum');
@@ -150,7 +150,7 @@ select:focus {
 .ba-artpicture{
 	padding-top: 72px;
 	margin-left: -4px;
-	padding-bottom: 110px;
+	padding-bottom: 113px;
 }
 
 .ba-description{
@@ -163,16 +163,40 @@ select:focus {
 	margin-left: -23px;
 }
 
-.ba-artpicture__gallery img{
-	padding-left: 24px;
-}
-
 .ba-artpicture__first-line{
 	padding-bottom: 64px;
+	display: flex;
+
+}
+
+.ba-artpicture__first-line img{
+	margin-left: 24px;
+	width: 47.8%;
+	height: 100%;
+}
+
+.ba-artpicture__second-line{
+	display: flex;
 }
 
 .picture-12{
-	vertical-align:top;
+	padding-left: 29px;
+	position: relative;
+	width: 50%;
+
+}
+
+.picture-11{
+	display: flex;
+	margin-left: 24px;
+	width: 64%;
+	height: 50%;
+}
+
+.picture-12 img{
+	margin-bottom: 74px;
+	width: 100%;
+	height: 67%;
 }
 
 .ba-artpicture__gallery img:hover{
@@ -196,9 +220,6 @@ select:focus {
 }
 
 .ba-artpicture__button{
-	position: relative;
-	bottom: 67px;
-	left: 2px;
 	padding-right: 61px;
 }
 
@@ -207,6 +228,11 @@ select:focus {
 	right: -17px;
 	bottom: 2px;
 }
+
+.picture-12__button{
+
+}
+
 /*.ba-artpicture*/
 
 .ba-artvideo{
@@ -230,7 +256,6 @@ select:focus {
 	font-weight: normal;
 	font-size: 29px;
 }
-
 
 .opisanie p{
 	font-size: 18px;
@@ -268,12 +293,22 @@ select:focus {
 	border: none;
 	resize: none;
 	border-radius: 5px;
-	width: 270px;
+	width: 100%;
 	height: 53px;
 }
 
+.formform div{
+	width: 100%;
+	height: auto;
+}
+
+.ba-contacts__buttdiv{
+	display: flex;
+	justify-content: flex-end;
+}
+
 .ba-contacts__textarea{
-	padding-top: 20px;
+	padding-top: 18px;
 }
 
 .ba-contacts form{
@@ -286,7 +321,7 @@ select:focus {
 }
 
 .ba-contacts__button{
-	width: 199px;
+	width: 74%;
 	height: 57px;
 	margin-top: 45px;
 	border: none;
@@ -314,7 +349,7 @@ select:focus {
 }
 
 .soc-media a{
-	margin-right: -21px;
+	margin-right: -20px;
 	margin-left: 20px;
 	padding: 14px 18px;
 	border: 3px solid transparent;
@@ -434,5 +469,11 @@ select:focus {
 	padding-left: 5px;
 }
 
+
+/*@media screen and (max-width: 1220px ) {*/
+	/*.picture-12 img {width: 35%; height: 100%;}}*/
+
+/*@media screen and (max-width: 1220px ) {*/
+	/*.ba-artpicture__gallery img {width: 49%; height: 100%;}}*/
 
 
